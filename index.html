@@ -19,28 +19,30 @@
     </div>
     <h1 id="main-text">Type In Input</h1>
 
-    <label for="text">Text :</label>
-    <input type="text" id="text" id="text" placeholder="type your input" />
-    <button id="text-btn">change text</button><br />
-    <label for="font">Font : </label>
-    <input
-      type="range"
-      id="font-changer"
-      min="0"
-      step="0.25"
-      max="6.5"
-      value="3"
-    />
-    <span id="rangeValue"></span> <br />
-    <h4>select font style :</h4>
-    <input type="radio" name="font" value="italic" /> italic &nbsp;
-    <input type="radio" name="font" value="normal" /> normal <br />
-    <select name="font-face" id="font-face">
-      <option value="'Roboto', sans-serif">Roboto Font</option>
-      <option value="'Handlee', cursive">Handlee Font</option>
-      <option value="'Lobster', cursive">Lobster Font</option>
-    </select>
-
+    <div class="container">
+      <label for="text">Text :</label>
+      <input type="text" id="text" id="text" placeholder="type your input" />
+      <button id="text-btn">Change Text</button><br />
+      <label for="font">Font : </label>
+      <input
+        type="range"
+        id="font-changer"
+        min="0"
+        step="0.25"
+        max="6.5"
+        value="3"
+      />
+      <span id="rangeValue"></span> <br />
+      <p>Select font style :</p>
+      <input type="radio" name="font" value="italic" /> Italic &nbsp;
+      <input type="radio" name="font" value="normal" /> Normal <br />
+      <p>Font Family :</p>
+      <select name="font-face" id="font-face">
+        <option value="'Roboto', sans-serif">Roboto Font</option>
+        <option value="'Handlee', cursive">Handlee Font</option>
+        <option value="'Lobster', cursive">Lobster Font</option>
+      </select>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
